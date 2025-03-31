@@ -9,10 +9,10 @@ p_tree = 0.7   # Prawdopodobieństwo początkowego istnienia drzewa
 cell_size = 10 # Rozmiar komórki w pikselach
 
 # Stany komórek
-EMPTY = 0    # Puste pole 🌿
-TREE = 1     # Drzewo 🌲
-BURNING = 2  # Płonące drzewo 🔥
-BURNT = 3    # Spalone drzewo 🖤
+EMPTY = 0  
+TREE = 1    
+BURNING = 2  
+BURNT = 3   
 
 # Kolory
 COLORS = {
