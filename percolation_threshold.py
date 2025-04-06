@@ -48,7 +48,7 @@ def fire_reaches_bottom(size, tree_density, neighbor_func, trials=50):
 
 # Parametry
 sizes = [10, 20, 50, 100] # Rozmiary siatki
-trials = 200  # Liczba powtórzeń dla każdego tree_density
+trials =100  # Liczba powtórzeń dla każdego tree_density
 densities = np.arange(0.3, 0.85, 0.01) # Badamy różne tree_density od 0.3 do 0.85
 
 # Progi teoretyczne
